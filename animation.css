@@ -1,0 +1,32 @@
+:root{
+    --ani-duration:0.3s
+}
+
+.haku-from-bottom {
+  opacity: 0;
+  transform: translateY(30%);
+  transition: all var(--ani-duration);
+}
+.haku-from-top {
+  opacity: 0;
+  transform: translateY(-30%);
+  transition: all var(--ani-duration);
+}
+.haku-from-left {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: all var(--ani-duration);
+}
+.haku-from-right {
+  opacity: 0;
+  transform: translateX(30%);
+  transition: all var(--ani-duration);
+}
+.haku-from-scale {
+  transform: scale(10%);
+  transition: all var(--ani-duration);
+}
+.haku-from-active {
+  opacity: 1;
+  transform: translateY(0%) translateX(0%) scale(100%);
+}
